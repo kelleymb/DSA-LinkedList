@@ -65,7 +65,7 @@ class LinkedList {
     
         if (currNode === null) {
           this.insertLast(newItem)
-          return
+          return;
         }
     
         const tempNode = new _Node(newItem, currNode.next);

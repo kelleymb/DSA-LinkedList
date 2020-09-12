@@ -57,10 +57,10 @@ function size() {
 
 //isEmpty: finds if the list is empty or not (without using the size() function)
 function isEmpty() {
-    if(this.head === null){
-        return true;
-      }
-      return false;
+  if(this.head === null){
+    return true;
+  }
+  return false;
 }
 
 //findPrevious: finds the node before the item you are looking for
@@ -159,7 +159,7 @@ function middle() {
         console.log('list is empty');
         return;
     }
-    let size = this.findSize();
+    let size = this.size();
     size = Math.floor(size/2);
     
     let currentNode = this.head;
