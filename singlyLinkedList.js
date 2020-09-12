@@ -164,9 +164,10 @@ function middle() {
     
     let currentNode = this.head;
     
-    for (let i = 0; i < size; i++) {
+    while (next) {
       currentNode = currentNode.next;
     }
+    
     return currentNode;
 }
 
